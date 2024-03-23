@@ -1,0 +1,7 @@
+.form-group input{
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}

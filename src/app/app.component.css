@@ -1,0 +1,228 @@
+body {
+    background-color: black;
+}
+
+.bi-spotify,
+.bi-house,
+.bi-search,
+.bi-collection-fill {
+    font-size: 25px;
+}
+
+.csm1 {
+    text-indent: 4px;
+    color: white;
+    border: 1px solid#121212;
+    border-radius: 10px;
+    background-color: #121212;
+    height: 170px;
+    width: 400px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.csm1 a{
+    text-decoration: none;
+    color: white;
+}
+.csip1 {
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.csm2 {
+    text-indent: 4px;
+    color: white;
+    border: 1px solid #121212;
+    border-radius: 10px;
+    background-color: #121212;
+    height: 550px;
+    width: 400px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+footer {
+    height: 60px;
+    background-color: 121212;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.bi-plus {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.csmn3 {
+    background-color: #242424;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.csmn3 .csbt1 {
+    border: 1px solid #242424;
+    border-radius: 30px;
+    padding: 4px 20px 4px 20px;
+    width: 170px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.csbt1:hover {
+   background-color: orange;
+    border: 1px solid gray;
+    color: white;
+
+}
+
+.csmn3 p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.csmn3 .csp {
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.csnt {
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 140px;
+    font-size: 14px;
+    height: 35px;
+    margin-top: 150px;
+}
+
+.csp2 {
+    padding-right: 10px;
+}
+
+.cscpr {
+    font-size: 12px;
+    color: #242424;
+    margin-top: 20px
+}
+
+/* right */
+.csr1 {
+    background-color: #121212;
+    height: 60px;
+    color: white;
+    border: 1px solid#121212;
+    border-radius: 10px 10px 0pxpx 0px;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+.bi-arrow-right,
+.bi-arrow-left {
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px 13px 10px 13px;
+    font-size: 12px;
+}
+
+.bi-arrow-left:hover {
+    background: none;
+    border: 1px solid white;
+}
+
+.bi-arrow-right:hover {
+    background: none;
+    border: 1px solid white;
+}
+
+.csa1 {
+    text-indent: 20px;
+}
+
+.csa1 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid gray;
+}
+
+.csa1 a:hover {
+    color: orange;
+}
+
+.csa1 button {
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    padding: 12px 25px 12px 25px;
+    font-weight: 700;
+}
+
+.csa1 button:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+/* main */
+.csmain {
+    
+    height: 670px;
+    margin-left: -20px;
+    border-radius: 0px 0px 10px 10px;
+    margin-right: 10px;
+    color: white;
+        background: linear-gradient(to bottom,#242424,#121212);
+    
+}
+
+.cst1 p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cst1 a {
+    color: gray;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 13px;
+}
+.cslog a{
+    font-weight: 800;
+    border: none;
+    color: white;
+}
+.cst1 a:hover {
+    color: white;
+}
+footer button{
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    padding: 12px 20px 12px 20px;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+footer p{
+    padding-bottom: 0px;
+    margin: 0px;
+    font-weight: 800;
+}
+.csss button{
+    background: none;
+    border: 1px solid gray;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 10px;
+
+}
+.csss button:hover{
+    background-color: #1fdf64;
+}

@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-lg-2 " *ngFor="let item of productHome">
+        <div class="card-deck mt-2 cspd">
+            <div class="card">
+                <img class="card-img-top" src="{{item.imageUrl}}"height="100px" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">{{item.productName}}</h4>
+                    <p class="card-text">{{item.description}}</p>
+                    <button class="btn btn-primary" [routerLink]="['/product-details', item.productId]"><i class="bi bi-play-fill"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

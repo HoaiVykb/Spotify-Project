@@ -1,0 +1,77 @@
+.crop {
+    overflow: hidden;
+    }
+.row img{
+    border-radius: 30px;
+}
+.csdf p{
+    color: gray;
+    font-size: 17px;
+}
+.csif button{
+    border-radius: 30px;
+    width: 250px;
+    background-color: #1fdf64;
+    border: none;
+    font-weight: 800;
+}
+.csif button:hover{
+    background: none;
+    border: 1px solid #1fdf64;
+}
+.csif{
+    margin-top: 40px;
+    border-right: 3px solid white;
+}
+.csdemo img{
+    border-radius: 50%;
+    border: 4px solid white;
+    display: flex;
+    margin: auto;
+}
+.csdemo audio{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+#progress{
+    -webkit-appearance: none;
+    width: 90%;
+    height: 6px;
+    background: #1fdf64;;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+    margin-left: 20px;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background:#1fdf64;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #1fdf64;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+}
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    background: #1fdf64;
+    color: #fff;
+}

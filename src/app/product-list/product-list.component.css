@@ -1,0 +1,16 @@
+thead th{
+    background-color: #242424;
+    color: white;
+}
+.tbody tr {
+    background-color: #242424;
+}
+.csbt{
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    color: white;
+    font-weight: 700;
+    display: block;
+}
+.modal-content{color: black;}

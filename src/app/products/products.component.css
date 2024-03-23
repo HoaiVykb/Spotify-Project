@@ -1,0 +1,50 @@
+.row{
+    width: 1200px;
+}
+.card{
+    background-color: #121212;
+}
+.cspd{
+    width: 200px;   
+}
+.card-body{
+    color: white;
+    text-align:left;
+}
+.card-text{
+    color: gray;
+    font-size: 12px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.row{
+    margin: 30px 30px 20px 30px;
+}
+.card-img-top{
+    max-width: 130px;
+    margin: auto;
+    border-radius: 10px;
+    height: 130px;
+    margin: 20px 10px 10px 20px;
+}
+.card:hover{
+    background-color: #282828;
+}
+.card-body button{
+    background-color: #1fdf64;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 120px;
+    left: 105px;
+    color: black;
+    font-size: 20px;
+}
+.card-body button:hover{
+    width: 49px;
+    height: 49px;
+}
